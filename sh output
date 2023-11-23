@@ -1,0 +1,194 @@
+*   Trying 127.0.0.1:8080...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> POST / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> password: 3TQI8TB39DFIMI6
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 501 not implemented
+* no chunk, no close, no size. Assume close to signal end
+< 
+{ [0 bytes data]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> POST / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> username: Richard
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 501 not implemented
+* no chunk, no close, no size. Assume close to signal end
+< 
+{ [0 bytes data]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> POST / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> username: Angela
+> password: 3TQI8TB39DFIMI6
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+* no chunk, no close, no size. Assume close to signal end
+< 
+{ [15 bytes data]
+100    15    0    15    0     0   8269      0 --:--:-- --:--:-- --:--:-- 15000
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> POST / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> username: Richard
+> password: XMLU8ZPD7Z9BMC5
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+* no chunk, no close, no size. Assume close to signal end
+< 
+{ [15 bytes data]
+100    15    0    15    0     0   7961      0 --:--:-- --:--:-- --:--:-- 15000
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> POST / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> username: Richard
+> password: 3TQI8TB39DFIMI6
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Set-Cookie: sessionID=0xdd5d8aa1c6345471
+* no chunk, no close, no size. Assume close to signal end
+< 
+{ [12 bytes data]
+100    12    0    12    0     0   6482      0 --:--:-- --:--:-- --:--:-- 12000
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> POST / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> username: Richard
+> password: 3TQI8TB39DFIMI6
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Set-Cookie: sessionID=0x4cafd5583eb80bf4
+* no chunk, no close, no size. Assume close to signal end
+< 
+{ [12 bytes data]
+100    12    0    12    0     0   6472      0 --:--:-- --:--:-- --:--:-- 12000
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> GET /file.txt HTTP/1.0
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> Cookie: sessionID=apple
+> 
+* Mark bundle as not supporting multiuse
+* HTTP 1.0, assume close after body
+< HTTP/1.0 401 Unauthorized
+* The requested URL returned error: 401
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> GET /file.txt HTTP/1.0
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> Cookie: sessionID=0x4cafd5583eb80bf4
+> 
+* Mark bundle as not supporting multiuse
+* HTTP 1.0, assume close after body
+< HTTP/1.0 200 OK
+< 
+The numberless hall dusts father.
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> POST / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> username: Angela
+> password: XMLU8ZPD7Z9BMC5
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Set-Cookie: sessionID=0x178452c1fd5372da
+* no chunk, no close, no size. Assume close to signal end
+< 
+{ [12 bytes data]
+100    12    0    12    0     0   6325      0 --:--:-- --:--:-- --:--:-- 12000
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> GET /file.txt HTTP/1.0
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> Cookie: sessionID=0x178452c1fd5372da
+> 
+* Mark bundle as not supporting multiuse
+* HTTP 1.0, assume close after body
+< HTTP/1.0 200 OK
+< 
+The earthy alpenglow rocks screwdriver.
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> GET /file2.txt HTTP/1.0
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> Cookie: sessionID=0x178452c1fd5372da
+> 
+* Mark bundle as not supporting multiuse
+* HTTP 1.0, assume close after body
+< HTTP/1.0 404 NOT FOUND
+* The requested URL returned error: 404
+* Closing connection 0
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
+> GET /file.txt HTTP/1.0
+> Host: 127.0.0.1:8080
+> User-Agent: curl/7.81.0
+> Accept: */*
+> Cookie: sessionID=0x178452c1fd5372da
+> 
+* Mark bundle as not supporting multiuse
+* HTTP 1.0, assume close after body
+< HTTP/1.0 401 Unauthorized
+* The requested URL returned error: 401
+* Closing connection 0
